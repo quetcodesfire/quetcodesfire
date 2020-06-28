@@ -40,7 +40,7 @@
       display: flex;
       justify-content: space-around;
     }
-    
+
   }
 
 
@@ -51,6 +51,20 @@
       width: 100vw;
       margin-top: 20vh;
     }
+
+    .icon-container {
+      width: 50vw;
+      display: block;
+      margin: 0 auto;
+  
+      .icons {
+        // width: 80vw;
+        display: flex;
+        justify-content: space-around;
+      }
+  
+    }
+
   }
 
 }

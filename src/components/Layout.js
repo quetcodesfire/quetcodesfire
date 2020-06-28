@@ -29,9 +29,9 @@ const Layout = ({ children, pageName, className }) => {
     <>
       <Helmet {...helmetSettings} />
       <div className="wrapper">
-        <Header />
+        {/* <Header /> */}
         <main>{ children }</main>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );

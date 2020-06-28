@@ -24,9 +24,33 @@
 
   }
 
-  pre {
-    max-width: 42rem;
+  .index-logo {
+    height: 50vh;
+    width: 40vw;
+    margin-top: 20vh
+  }
+
+  .icon-container {
+    width: 10vw;
+    display: block;
     margin: 0 auto;
+
+    .icons {
+      // width: 80vw;
+      display: flex;
+      justify-content: space-around;
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 1024px) {
+    .index-logo {
+      // display: flex;
+      height: 50vh;
+      width: 100vw;
+      margin-top: 20vh;
+    }
   }
 
 }

@@ -1,5 +1,7 @@
-$content-heading-color: white;
+// $content-heading-color: white;
+$content-heading-color: black;
 $body-color: rgba(white, .8);
+// $body-color: rgba(black, .8);
 $pre: rgba(white, .7);
 $pre-background: #2e2252;
 
@@ -16,7 +18,8 @@ body {
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  background-color: #0f0640;
+  // background-color: #0f0640;
+  background: #696969 
 }
 
 main {

@@ -27,7 +27,7 @@
   .index-logo {
     height: 50vh;
     width: 40vw;
-    margin-top: 20vh
+    margin-top: 20vh;
   }
 
   .icon-container {
@@ -46,10 +46,9 @@
 
   @media only screen and (max-width: 1024px) {
     .index-logo {
-      // display: flex;
       height: 50vh;
       width: 100vw;
-      margin-top: 20vh;
+      margin-top: 10vh;
     }
 
     .icon-container {

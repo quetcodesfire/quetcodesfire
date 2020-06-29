@@ -4,13 +4,10 @@ import Layout from 'components/Layout';
 import Container from 'components/Container';
 import Columns from 'components/Columns';
 import Column from 'components/Column';
-import Icon from 'components/Icon'
+
+import { FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
 
 import logo from 'assets/images/quetcodesfire-laptop-transparent-logo.png'
-import twitter_logo from 'assets/images/twitter-bird-logo.png'
-import ig_logo from 'assets/images/instagram-logo.png'
-// import youtube_logo from 'assets/images/youtube-logo-hd.png'
-import youtube_logo from 'assets/images/youtube-icon.png'
 
 const IndexPage = () => {
   // We don't include the title in Helmet here because we'll inherit the
@@ -27,9 +24,9 @@ const IndexPage = () => {
         </Columns>
         <section className="icon-container">
           <div className="icons">
-            <Icon iconName='twitter' href='http://twitter.com/quetcodesfire' logo={twitter_logo}/>
-            <Icon iconName='instagram' href='http://instagram.com/quetcodesfire_' logo={ig_logo}/>
-            <Icon iconName='youtube' href='http://youtube.com/quetcodesfire' logo={youtube_logo} />
+            <FaYoutube size={50} color="#FE2603" />
+            <FaTwitter size={50} color="#1DA1F2" />
+            <FaInstagram size={50} color="#FE2603" />
           </div>
         </section>
       </Container>

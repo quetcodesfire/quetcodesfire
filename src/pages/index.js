@@ -18,15 +18,14 @@ const IndexPage = () => {
         <Columns>
           <Column>
           <img src={logo} alt="Quet Codes Fire logo" className="index-logo"/>
-            {/* <h1>QuetCodesFire</h1> */}
             <p>Website coming soon. Follow me at the platforms below for updates on all things QuetCodesFire.</p>
           </Column>
         </Columns>
         <section className="icon-container">
           <div className="icons">
-            <FaYoutube size={50} color="#FE2603" />
-            <FaTwitter size={50} color="#1DA1F2" />
-            <FaInstagram size={50} color="#FE2603" />
+            <a href="http://youtube.com/quetcodesfire" target="_blank"><FaYoutube size={50} color="#FE2603" /></a>
+            <a href="http://twitter.com/quetcodesfire" target="_blank"><FaTwitter size={50} color="#1DA1F2" /></a>
+            <a href="http://instagram.com/quetcodesfire_" target="_blank"><FaInstagram size={50} color="#FE2603" /></a>
           </div>
         </section>
       </Container>

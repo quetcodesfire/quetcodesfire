@@ -7,6 +7,7 @@ import 'assets/stylesheets/application.scss';
 import ClassName from 'models/classname';
 import { usePageMeta } from 'hooks';
 
+import NavBar from 'components/NavBar'
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 
@@ -30,8 +31,12 @@ const Layout = ({ children, pageName, className }) => {
       <Helmet {...helmetSettings} />
       <div className="wrapper">
         {/* <Header /> */}
-        <main>{ children }</main>
-        {/* <Footer /> */}
+        <NavBar />
+        <main>
+          {/* <NavBar /> */}
+          { children }
+        </main>
+        <Footer />
       </div>
     </>
   );

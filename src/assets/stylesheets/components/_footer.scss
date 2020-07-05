@@ -5,11 +5,30 @@ footer {
   line-height: 2em;
   color: rgba(white, .6);
   text-align: center;
-  background-color: #0c061b;
+  // background-color: #0c061b;
 
   p {
     font-size: 1em;
     margin: 0;
+  }
+
+  .footer-container {
+    width: 42.5vw;
+  }
+
+  .footer-icons {
+    // width: 80vw;
+    display: flex;
+    justify-content: space-around;
+
+    .footer-icon {
+      color: #FFF
+    }
+
+    .footer-icon:hover {
+      color: #000
+    }
+
   }
 
 }

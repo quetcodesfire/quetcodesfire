@@ -5,18 +5,15 @@ import Container from 'components/Container';
 import Columns from 'components/Columns';
 import Column from 'components/Column';
 
-import logo from 'assets/images/quetcodesfire-laptop-transparent-logo.png'
-
-const IndexPage = () => {
+const About = () => {
   // We don't include the title in Helmet here because we'll inherit the
   // default title from Layout
   return (
-    <Layout pageName="home">
-      <Container className="content">
+    <Layout pageName="about">
+      <Container className="bio">
         <Columns>
           <Column>
-          <img src={logo} alt="Quet Codes Fire logo" className="index-logo"/>
-            <p>Website coming soon. Follow me at the platforms below for updates on all things QuetCodesFire.</p>
+            <p>This is the about section of the site. I still have to think through how 'i want to design it now and what the final design should b elike.</p>
           </Column>
         </Columns>
       </Container>
@@ -24,4 +21,4 @@ const IndexPage = () => {
   );
 };
 
-export default IndexPage;
+export default About;

@@ -1,8 +1,16 @@
 header {
 
-  width: 100%;
+  height: 15vh;
+  // width: 30%;
+  width: 7vw;
   color: white;
-  background-color: rebeccapurple;
+  // background-color: #000;
+  // border: solid #000 .1vw;
+  // border-radius: 10%;
+  margin-top: 2vh;
+  // margin-left: .5vw;;
+  // display: flex;
+  // flex-direction: column;
 
   .columns {
 
@@ -25,8 +33,16 @@ header {
   .column {
 
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    // margin-left: 2vw;
+    // justify-content: flex-end;
+    // border: solid #000 .1vw;
+    border-right: solid #000 .1vw;
+    // border-radius: 10%;
+    // height: 100vh;
+    padding-bottom: 35vh;
 
     @include mobile() {
       padding: 0;
@@ -44,6 +60,15 @@ header {
 
     }
 
+    .nav-icons {
+      margin-top: 5vh;
+      color: #FFF
+    }
+
+    .nav-icons:hover {
+      // color: #FE2603;
+      color: #000
+    }
   }
 
   ul {

@@ -18,9 +18,9 @@ const Header = () => {
             <Link to="/"><img src={icon} className="nav-logo" alt="quet codes fire logo" /></Link>
             <Link to="/"><FaHome className="nav-icons" size={25} /></Link>
             <Link to="/about"><FaUser className="nav-icons" size={25} /></Link>
-            <Link to="/contact"><FaLaptopCode className="nav-icons" size={25} /></Link>
+            {/* <Link to="/contact"><FaLaptopCode className="nav-icons" size={25} /></Link>
             <Link to="/contact"><FaShoppingCart className="nav-icons" size={25} /></Link>
-            <Link to="/contact"><FaMicrophone className="nav-icons" size={25} /></Link>
+            <Link to="/contact"><FaMicrophone className="nav-icons" size={25} /></Link> */}
             <Link to="/contact"><FaEnvelope className="nav-icons" size={25} /></Link>
           </Column>
           {/* <Column>

@@ -34,7 +34,7 @@ header {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     // margin-left: 2vw;
     // justify-content: flex-end;
@@ -42,7 +42,8 @@ header {
     border-right: solid #000 .1vw;
     // border-radius: 10%;
     // height: 100vh;
-    padding-bottom: 35vh;
+    // padding-bottom: 27vh; // padding with all icons
+    // padding-bottom: 53vh;
 
     @include mobile() {
       padding: 0;
@@ -58,6 +59,10 @@ header {
         justify-content: flex-end;
       }
 
+    }
+
+    .light-mode-off {
+      margin-top: 40vh;
     }
 
     .nav-icons {

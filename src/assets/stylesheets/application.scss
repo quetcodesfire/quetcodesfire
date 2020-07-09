@@ -1,5 +1,5 @@
-// $content-heading-color: white;
-$content-heading-color: black;
+$content-heading-color: white;
+// $content-heading-color: black;
 $body-color: rgba(white, .8);
 // $body-color: rgba(black, .8);
 $pre: rgba(white, .7);
@@ -31,4 +31,12 @@ main {
   height: 93vh;
   display: inline-block;
   // padding: 2em 0;
+}
+
+h1 {
+  color: #FFF;
+}
+
+.fire {
+  color: #FE2603
 }

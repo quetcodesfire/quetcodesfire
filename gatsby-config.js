@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    description: `A Gatsby starter with Sass and no assumptions`,
+    description: `Official Website of QuetCodesFire`,
     lang: 'en',
     siteType: 'website', // https://ogp.me/#types
-    siteUrl: 'https://gatsby-starter-zurg.netlify.com/',
-    title: 'Zurgbot Gatsby Starter'
+    siteUrl: 'https://quetcodesfire.com/',
+    title: 'QuetCodesFire'
   },
   plugins: [
     'gatsby-plugin-resolve-src',
@@ -20,13 +20,14 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Zurgbot Gatsby Starter',
-        short_name: 'Zurgbot Gatsby Starter',
+        name: 'QuetCodesFire',
+        short_name: 'QuetCodesFire',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#a2466c',
         display: 'standalone',
-        icon: 'src/assets/images/zurg-icon.svg'
+        // icon: 'src/assets/images/zurg-icon.svg'
+        icon: 'src/assets/images/favicon.ico'
       }
     },
     'gatsby-plugin-offline',

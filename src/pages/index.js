@@ -16,7 +16,8 @@ const IndexPage = () => {
         <Columns>
           <Column>
           <img src={logo} alt="Quet Codes Fire logo" className="index-logo"/>
-            <p>Website coming soon. Follow me at the platforms below for updates on all things QuetCodesFire.</p>
+            <h1>I code <span className="fire">fire</span> and I want to help you do the same.</h1>
+            <p>Site is a work in progress, please follow me on the platforms below for content and for updates on the site.</p>
           </Column>
         </Columns>
       </Container>

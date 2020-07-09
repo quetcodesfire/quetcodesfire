@@ -5,20 +5,19 @@ import Container from 'components/Container';
 import Columns from 'components/Columns';
 import Column from 'components/Column';
 
-const Contact = () => {
+const Tools = () => {
   // We don't include the title in Helmet here because we'll inherit the
   // default title from Layout
   return (
-    <Layout pageName="contact">
-      <Container className="contact-info">
+    <Layout pageName="tools">
+      <Container className="tools-container">
         <Columns>
           <Column>
             <section className="contact-info-paragraphs">
-              <h1>Contact</h1>
+              <h1>Tools</h1>
               <p>
-                You can reach out to me on any of the places that I create content, honestly for quick questions and inqueries twitter DM's are probably the quickest place to get a reply.
+                These are the different kind of tools and technology I use to work day to day (not including tools listed in <span>devloper toolbag</span>)
               </p>
-              <p>For longer more detailed messages you can email me at quet@quetcodesfire.com.</p>
             </section>
           </Column>
         </Columns>
@@ -27,4 +26,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Tools;

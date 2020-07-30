@@ -16,76 +16,56 @@
     font-size: 3vh;
   }
 
-.profile-pic {
-  height: 25vh;
-  width: 12.5vw;
-  border-radius: 100%;
-  margin-top: 1vh;
-}
-
-.about-me {
-  width: 90%;
-  // text-align: center;
-  display: flex;
-  flex-direction: column;
-  margin: .5vh auto;
-}
-
-.more-info {
-  display: flex;
-  justify-content: space-around;
-}
-
-.fun-facts {
-  display: flex;
-  flex-direction: column;
-  // justify-content: flex-start;
-  align-items: center;
-  margin-top: 5vh;
-  border: solid #000 .2vw;
-  border-radius: 5%;
-  padding: 1vh 1vw 2vh 1vw;
-  width: 30%;
-  // background: #aaa;
-  // color: #000;
-  
-  h2 {
-    // margin-left: 7vw;
+  .profile-pic {
+    height: 25vh;
+    width: 12.5vw;
+    border-radius: 100%;
+    margin-top: 1vh;
   }
-}
 
-.stats {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 5vh;
-  border: solid #000 .2vw;
-  border-radius: 5%;
-  padding: 1vh 1vw;
-  width: 30%;
-  // background: #fff;
-  // color: #000;
-  
-  h2 {
-    // margin-left: 9vw;
+  .about-me {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: .5vh auto;
   }
-}
 
-.developer-stuff {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 5vh;
-  border: solid #000 .2vw;
-  border-radius: 5%;
-  padding: 1vh 1vw;
-  width: 30%;
-  // padding-bottom: .1vh;
-  // background: #fff;
-  // color: #000;
-  
-  h2 {
-    // margin-left: 5vw;
+  .more-info {
+    display: flex;
+    justify-content: space-around;
   }
-}
+
+  .fun-facts {
+    display: flex;
+    flex-direction: column;
+    // justify-content: flex-start;
+    align-items: center;
+    margin-top: 5vh;
+    border: solid #000 .2vw;
+    border-radius: 5%;
+    padding: 1vh 1vw 2vh 1vw;
+    width: 30%;
+  }
+
+  .stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    border: solid #000 .2vw;
+    border-radius: 5%;
+    padding: 1vh 1vw;
+    width: 30%;
+  }
+
+  .developer-stuff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    border: solid #000 .2vw;
+    border-radius: 5%;
+    padding: 1vh 1vw;
+    width: 30%;
+  }
 }

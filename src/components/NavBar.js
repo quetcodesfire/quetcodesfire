@@ -32,25 +32,10 @@ const Header = () => {
             <Link to="/tools"><FaTools className="nav-icons" size={25} /></Link>
             <Link to="/contact"><FaEnvelope className="nav-icons" size={25} /></Link>
           
-            <div className="light-mode-off">
+            {/* <div className="light-mode-off">
               <Link to="/contact"><FaLightbulb className="nav-icons" size={25} /></Link>
-            </div>
+            </div> */}
           </Column>
-          {/* <Column>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/page-2/">Page 2</Link>
-              </li>
-              <li>
-                <a href="https://github.com/zurgbot/gatsby-starter-zurgbot">
-                  <FaGithub />
-                </a>
-              </li>
-            </ul>
-          </Column> */}
         </Columns>
       </Container>
     </header>

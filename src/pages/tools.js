@@ -5,16 +5,20 @@ import Container from 'components/Container';
 import Columns from 'components/Columns';
 import Column from 'components/Column';
 
+import tool_box from 'assets/images/tool-box-2.png'
+// import tool_box from 'assets/images/tool-box.png'
+
 const Tools = () => {
   // We don't include the title in Helmet here because we'll inherit the
   // default title from Layout
   return (
     <Layout pageName="tools">
       <Container className="tools-container">
-        <Columns>
-          <Column>
+        <img src={tool_box} alt="Marquet in the street outside of Element 84 HQ" className="tool-box-pic"/>
+        {/* <Columns>
+          <Column> */}
             <section className="contact-info-paragraphs">
-              <h1>Tools</h1>
+              <h1 className="tools-title">Tools</h1>
               <p>
                 These are the different kind of tools and technology I use to work day to day (not including tools listed in <span>developer toolbag</span>)
               </p>
@@ -61,8 +65,8 @@ const Tools = () => {
                 </ul>
               </section>
             </section>
-          </Column>
-        </Columns>
+          {/* </Column>
+        </Columns> */}
       </Container>
     </Layout>
   );

@@ -26,7 +26,7 @@ const About = () => {
         </section>
         <div className="more-info">
           <section className="fun-facts">
-            <h3>Fun Facts</h3>
+            <h3>Fun Facts</h3><br />
 
             {/* <p>Height: 6'0</p>
             <p>Weight 200lbs</p>
@@ -43,21 +43,16 @@ const About = () => {
             {/* <p>Favorite Book: </p> */}
           </section>
           <section className="stats">
-            <h3>Content</h3>
-            {/* <p>First Place at Firebase Hackathon</p>
-            <p>Second Place at Bison Hacks 2018</p>
-            <p>Created over 30 youtube videos</p> */}
-            <p>New videos on youtube channel every week!</p>
-            <p>New content on Instagram daily!</p>
-            <p>New podcast episode of Joe and Quet Talks Tech weekly!</p>
-            <p>New e-book on getting started in web development coming soon!</p>
-            <p>New course for new developers and those looking to make a transistion into tech soon!</p>
+            <h3>Content</h3><br />
+            <p>Video lessons, tutorials, code challenges and more on my youtube.</p><br />
+            <p>Tech Tips and Tutorials on my Instagram.</p><br />
+            <p>New podcast Joe and Quet Talks Tech coming soon!</p>
+            {/* <p>New e-book on getting started in web development coming soon!</p>
+            <p>New course for new developers and those looking to make a transistion into tech soon!</p> */}
           </section>
 
           <section className="developer-stuff">
-            <h3>Developer Toolbag</h3>
-            {/* <p>Front End: HTML, CSS, Javascript, React, Gatsby, jQuery, Material-Ui, GraphQL</p>
-            <p>Back End: Node, Python, Ruby, Rails, Clojure</p> */}
+            <h3>Developer Toolbag</h3><br />
             <p>Languages and Frameworks: HTML, CSS, Javascript, React, Gatsby, jQuery, Material-Ui, GraphQL, Node, Python, Ruby, Rails, Clojure</p>
             <br />
             <p>Databases: Mongo DB, PostgreSQL, SQL, Dynamo DB</p>
